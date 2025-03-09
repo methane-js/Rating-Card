@@ -1,0 +1,115 @@
+:root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --anotherColor:hsl(213, 20%, 28%);
+    --LightFont: 400;
+    --BoldFont:700;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: var(--VeryDarkBlue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: var(--DarkBlue);
+    width:374px;
+    padding:30px;
+    border-radius: 15px;
+    font-family: "Overpass", sans-serif;
+}
+.previous img{
+    background-color: var(--anotherColor);
+    padding:10px;
+    border-radius: 50%;
+}
+h1{
+    color:white;
+}
+.previous h1{
+    margin-top:25px;
+}
+p{
+    color:var(--LightGrey);
+    font-size: 15px;
+}
+.request{
+    margin-top:13px;
+}
+.rating p{
+    padding:17px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: var(--anotherColor);
+}
+.rating p:hover{
+    background-color: var(--Orange);
+    color:var(--VeryDarkBlue);
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+button{
+    width:100%;
+    margin-top:20px;
+    padding:15px 0;
+    font-size:15px;
+    color:black;
+    background-color: var(--Orange);
+    border: 0;
+    border-radius: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: white;
+}
+.after{
+    text-align: center;
+    display: none;
+}
+.result{
+    background-color: var(--anotherColor);
+    color:var(--Orange);
+    border-radius: 15px;
+    display: inline-block;
+    padding:10px 20px;
+    font-weight: 400;
+    margin-top:20px;
+}
+.result h3{
+    font-weight: var(--LightFont);
+}
+.after h1{
+    margin-top:25px;
+}
+.after h4{
+    margin-top:14px;
+    color:var(--LightGrey);
+    line-height: 22px;
+    font-weight: 400;
+}
+.rated{
+    background-color: white;
+    color:black;
+}
+#numbers{
+    background-color: white;
+    color:black;
+}

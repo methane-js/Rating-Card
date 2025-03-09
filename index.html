@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <main>
+    <div class="previous">
+      <img src="icon-star.svg" alt="Star">
+      <h1>How did we do?</h1>
+      <p class="request">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering</p>
+      <div class="rating">
+        <p class="one rate" data-value="1">1</p>
+        <p class="two rate" data-value="2">2</p>
+        <p class="three rate" data-value="3">3</p>
+        <p class="four rate" data-value="4">4</p>
+        <p class="five rate" data-value="5">5</p>
+      </div>
+      <button>SUBMIT</button>
+    </div>
+    <div class="after">
+      <img src="illustration-thank-you.svg" alt="Thanks">
+      <div class="result">
+        <h3>You Selected 4 out of 5</h3>
+      </div>
+      <h1>Thank You!</h1>
+      <h4>We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</h4>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
