@@ -37,7 +37,7 @@ This is the Rating Preview of this project. After giving rating it looks like th
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://rating-card-pied.vercel.app)
 
 ## My process
 
