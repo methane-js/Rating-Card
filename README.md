@@ -36,7 +36,7 @@ This is the Rating Preview of this project. After giving rating it looks like th
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-2uc36PIM9s)
 - Live Site URL: [Vercel](https://rating-card-pied.vercel.app)
 
 ## My process
